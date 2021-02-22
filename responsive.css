@@ -3,15 +3,19 @@ body {
   font-size: 1rem;
   line-height: 1.5;
   margin: 0;
+  background-color: rgb(241, 241, 241);
 }
 
 img {
   height: auto;
   max-width: 100%;
+  margin: 0 auto;
+  align-items: center;
 } 
 
 a {
   text-decoration: none;
+  padding-left: 2rem;
 }
 
 a:hover {
@@ -19,6 +23,7 @@ a:hover {
 }
 
 h1 {
+  text-align: center;
   font-size: 2.4rem;
   font-weight: 800;
 }
@@ -32,7 +37,6 @@ nav {
   font-size: 1.4rem;
   font-weight: 600;
   min-height: 4rem;
-
 }
 
 section {
@@ -60,8 +64,8 @@ footer > p > a {
 .container {
   margin-left: 2rem;
   margin-right: 2rem;
-  padding-left: .5rem;
-  padding-right: .5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .nav {
@@ -72,6 +76,11 @@ footer > p > a {
 
 .lead {
   font-size: 1.2rem;
+  text-align: center;
+  align-items: center;
+  margin-left: 25rem ;
+  margin-right: 25rem;
+
 }
 
 /* helpers */
@@ -120,9 +129,27 @@ ul {
 .rubrik {
   text-align: center;
 }
-@media (min-widht: 760px) {
-h1{
+.cards {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  padding-right: 2rem;
+}
+p {
+  
+}
+@media (min-width: 760px) {
+h1 {
   font-size: 1.4rem;
   font-weight: 800;
 }
+
+}
+@media (min-width: 1080px) {
+h1 {
+    font-size: 3rem;
+    font-weight: 800;
+  }
 }
