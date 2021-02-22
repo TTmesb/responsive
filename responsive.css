@@ -33,6 +33,7 @@ h1 {
 h2 {
   font-size: 1.4rem;
   font-weight: 600;
+  text-align: center;
 }
 
 nav {
@@ -139,7 +140,7 @@ ul {
 .card {
   padding-right: 2rem;
 }
-p {
+.karta {
   
 }
 }
