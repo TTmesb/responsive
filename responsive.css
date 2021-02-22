@@ -66,9 +66,8 @@ footer > p > a {
 
 .nav {
   list-style: none;
-  padding: 2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .lead {
@@ -114,9 +113,15 @@ footer > p > a {
 .text-uppercase {
   text-transform: uppercase;
 }
-
+ul {
+  padding: 2rem;
+  margin: 0;
+}
+.rubrik {
+  text-align: center;
+}
 @media (min-widht: 760px) {
-h1,  {
+h1{
   font-size: 1.4rem;
   font-weight: 800;
 }
