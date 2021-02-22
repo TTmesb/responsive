@@ -1,6 +1,4 @@
 /* elements */
-@media (min-width: 1080px) {
-
 body {
   font-size: 1rem;
   line-height: 1.5;
@@ -140,7 +138,23 @@ ul {
 .card {
   padding-right: 2rem;
 }
-.karta {
-  
-}
+@media (max-width: 1080px) {
+    h1 {
+      font-size: 1.4rem;
+    }
+    .card {
+      padding-left: 1rem;
+    }
+    .cards {
+      display: block;
+      padding-left: 1rem;
+    }
+    .lead {
+      font-size: 1.2rem;
+      text-align: center;
+      align-items: center;
+      margin-left: 2rem ;
+      margin-right: 2rem;
+    
+    }
 }
