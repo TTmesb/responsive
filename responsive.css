@@ -1,4 +1,6 @@
 /* elements */
+@media (min-width: 1080px) {
+
 body {
   font-size: 1rem;
   line-height: 1.5;
@@ -140,16 +142,4 @@ ul {
 p {
   
 }
-@media (min-width: 760px) {
-h1 {
-  font-size: 1.4rem;
-  font-weight: 800;
-}
-
-}
-@media (min-width: 1080px) {
-h1 {
-    font-size: 3rem;
-    font-weight: 800;
-  }
 }
