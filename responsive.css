@@ -32,6 +32,7 @@ nav {
   font-size: 1.4rem;
   font-weight: 600;
   min-height: 4rem;
+
 }
 
 section {
@@ -57,15 +58,17 @@ footer > p > a {
   padding-bottom: 10rem;
 }
 .container {
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   padding-left: .5rem;
   padding-right: .5rem;
 }
 
 .nav {
   list-style: none;
-  padding: 0;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .lead {
@@ -112,6 +115,9 @@ footer > p > a {
   text-transform: uppercase;
 }
 
-@media screen and (condition: 320px — 480px) {
-
+@media (min-widht: 760px) {
+h1,  {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
 }
